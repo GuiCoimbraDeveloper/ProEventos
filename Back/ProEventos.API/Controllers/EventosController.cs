@@ -8,11 +8,11 @@ namespace ProEventos.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class EventoController : ControllerBase
+    public class EventosController : ControllerBase
     {
         private readonly DataContext context;
 
-        public EventoController(DataContext context)
+        public EventosController(DataContext context)
         {
             this.context = context;
         }
@@ -32,19 +32,19 @@ namespace ProEventos.API.Controllers
         [HttpPost]
         public ActionResult Post()
         {
-            return null;
+            return Ok();
         }
 
-        [HttpGet]
+        [HttpDelete]
         public ActionResult Delete()
         {
-            return null;
+            return Ok();
         }
 
-        [HttpGet]
+        [HttpPut]
         public ActionResult Get()
         {
-            return null;
+            return Ok();
         }
     }
 }
