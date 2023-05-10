@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProEventos.API", "ProEventos.API.csproj", "{7B7CDECC-FA2E-437A-AFDF-A039D6761622}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProEventos.API", "ProEventos.API.csproj", "{7B7CDECC-FA2E-437A-AFDF-A039D6761622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProEventos.Persistence", "..\ProEventos.Persistence\ProEventos.Persistence.csproj", "{862AF9DE-63B0-4BB4-8519-C8C24D758D03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProEventos.Domain", "..\ProEventos.Domain\ProEventos.Domain.csproj", "{D1A08F9D-BE6D-461D-B17A-207831942FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProEventos.Application", "..\ProEventos.Application\ProEventos.Application.csproj", "{2F99C153-C4D9-4A8D-A723-0DC585B1EDD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{7B7CDECC-FA2E-437A-AFDF-A039D6761622}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B7CDECC-FA2E-437A-AFDF-A039D6761622}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B7CDECC-FA2E-437A-AFDF-A039D6761622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{862AF9DE-63B0-4BB4-8519-C8C24D758D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862AF9DE-63B0-4BB4-8519-C8C24D758D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862AF9DE-63B0-4BB4-8519-C8C24D758D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862AF9DE-63B0-4BB4-8519-C8C24D758D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A08F9D-BE6D-461D-B17A-207831942FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A08F9D-BE6D-461D-B17A-207831942FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A08F9D-BE6D-461D-B17A-207831942FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A08F9D-BE6D-461D-B17A-207831942FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F99C153-C4D9-4A8D-A723-0DC585B1EDD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F99C153-C4D9-4A8D-A723-0DC585B1EDD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F99C153-C4D9-4A8D-A723-0DC585B1EDD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F99C153-C4D9-4A8D-A723-0DC585B1EDD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
